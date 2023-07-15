@@ -1,0 +1,95 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-image: url(./media.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Sign_In {
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 30%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid rgba(118, 116, 116, 0.709);
+}
+
+.signInWays {
+    margin: 50px 50px 0 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    border-bottom: 1px solid rgba(118, 116, 116, 0.709);
+    position: relative;
+}
+
+.signInWays label {
+    font-size: 20px;
+}
+
+.or {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: -34px;
+    left: 45%;
+    font-weight: bold;
+}
+
+.signInWays i {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.signInForm {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.supportSignIn label{
+    float: left;
+    font-size: 14px;
+}
+
+.supportSignIn a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.supportSignIn a:hover {
+    color: rgb(48, 83, 219);
+    transition: 0.2s;
+}
+
+.signInForm button {
+    width: 25%;
+    min-width: fit-content;
+}
+
+.register {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.register a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(48, 83, 219);
+    transition: 0.5s;
+}
+
+.register a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
