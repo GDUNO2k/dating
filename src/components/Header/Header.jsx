@@ -18,7 +18,7 @@ const Header = () => {
         <i></i>
         <a href="#2">Name 2</a>
       </div>
-      <div className="notiication">
+      <div className="notification">
         <i></i>
       </div>
     </div>
