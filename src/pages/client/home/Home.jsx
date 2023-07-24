@@ -5,9 +5,7 @@ import "./Home.css";
 function home(props) {
   return (
     <div className="">
-      <div className="present_time">
-        <p>Present</p>
-      </div>
+      <div className="present_time"></div>
       <div className="home_function row">
         <div className="filter col-2">
           <p>Filter</p>
