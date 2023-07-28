@@ -57,29 +57,27 @@ function schedule(props) {
               </div>
             </div>
           </td>
-          <td>
-            <div className="work_per_day">
-              <div className="day">
-                <Timeline />
-              </div>
-              <div className="day">
-                <Timeline />
-              </div>
-              <div className="day">
-                <Timeline />
-              </div>
-              <div className="day">
-                <Timeline />
-              </div>
-              <div className="day">
-                <Timeline />
-              </div>
-              <div className="day">
-                <Timeline />
-              </div>
-              <div className="day">
-                <Timeline />
-              </div>
+          <td className="work_per_day">
+            <div className="day">
+              <Timeline />
+            </div>
+            <div className="day">
+              <Timeline />
+            </div>
+            <div className="day">
+              <Timeline />
+            </div>
+            <div className="day">
+              <Timeline />
+            </div>
+            <div className="day">
+              <Timeline />
+            </div>
+            <div className="day">
+              <Timeline />
+            </div>
+            <div className="day">
+              <Timeline />
             </div>
           </td>
         </tr>

@@ -1,6 +1,7 @@
 import React from "react";
 import Schedule from "./Schedule";
 import "./Home.css";
+import Filter from "./Filter";
 
 function home(props) {
   return (
@@ -8,7 +9,7 @@ function home(props) {
       <div className="present_time"></div>
       <div className="home_function row">
         <div className="filter col-2">
-          <p>Filter</p>
+          <Filter />
         </div>
         <div className="schedule col-10">
           <p>Schedule</p>
