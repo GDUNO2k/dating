@@ -4,11 +4,16 @@
 .work_per_day {
     display: flex;
     justify-content: space-evenly;
+    align-items: start;
+}
+.day_name {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
-
 .day {
-    height: 300px;
+    width: 100px;
+    height: fit-content;
     background-color: aquamarine;
 }
 

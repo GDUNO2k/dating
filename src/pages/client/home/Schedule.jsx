@@ -20,44 +20,65 @@ function schedule(props) {
           </td>
         </tr>
         <tr>
+          <td></td>
           <td>
-            <div className="hour_per_day col-1">
-              {hours.map((hour) => {
-                return <p>{hour}:00</p>;
-              })}
+            <div className="day_name">
+              <div className="day">
+                <p>monday</p>
+              </div>
+              <div className="day">
+                <p>monday</p>
+              </div>
+              <div className="day">
+                <p>monday</p>
+              </div>
+              <div className="day">
+                <p>monday</p>
+              </div>
+              <div className="day">
+                <p>monday</p>
+              </div>
+              <div className="day">
+                <p>monday</p>
+              </div>
+              <div className="day">
+                <p>monday</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div className="hour_per_day">
+              <div>
+                {hours.map((hour) => {
+                  return <p>{hour}:00</p>;
+                })}
+              </div>
             </div>
           </td>
           <td>
-            <div className="timeline col-11">
-              <div className="work_per_day">
-                <div className="day">
-                  <p>monday</p>
-                  <Timeline />
-                </div>
-                <div className="day">
-                  <p>monday</p>
-                  <Timeline />
-                </div>
-                <div className="day">
-                  <p>monday</p>
-                  <Timeline />
-                </div>
-                <div className="day">
-                  <p>monday</p>
-                  <Timeline />
-                </div>
-                <div className="day">
-                  <p>monday</p>
-                  <Timeline />
-                </div>
-                <div className="day">
-                  <p>monday</p>
-                  <Timeline />
-                </div>
-                <div className="day">
-                  <p>monday</p>
-                  <Timeline />
-                </div>
+            <div className="work_per_day">
+              <div className="day">
+                <Timeline />
+              </div>
+              <div className="day">
+                <Timeline />
+              </div>
+              <div className="day">
+                <Timeline />
+              </div>
+              <div className="day">
+                <Timeline />
+              </div>
+              <div className="day">
+                <Timeline />
+              </div>
+              <div className="day">
+                <Timeline />
+              </div>
+              <div className="day">
+                <Timeline />
               </div>
             </div>
           </td>
